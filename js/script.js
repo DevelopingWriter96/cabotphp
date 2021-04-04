@@ -23,7 +23,7 @@ for (i=0; i<test2.length; i++) {
 console.log(myPage);
 
 if(pieceIwant === myPage) {
-    alert("Match Found!" + myPage);
+    alert("Match Found! " + myPage);
 }
 }
 
