@@ -19,7 +19,10 @@ console.log(test2);
 var i;
 
 for (i=0; i<test2.length; i++) {
-console.log(test2[i].getAttribute("href"));
+    var myPage = test2[i].getAttribute("href");
+console.log(myPage);
+
+//if() {}
 }
 
 function toggleMenu(){
