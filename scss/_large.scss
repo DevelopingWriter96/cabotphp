@@ -1,0 +1,45 @@
+body{margin-left: 15rem;}
+nav{
+	margin:auto;
+}
+nav ul li {width: 12%;}
+nav a {padding: 1rem;}
+nav ul {padding-left: 0;}
+
+main{
+	max-width: 64rem;
+	margin: auto;
+}
+
+header h2 {
+	margin-left: 80%;
+}
+
+div#headerwrapper {
+color: $backColor;	
+}
+
+div#content{
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+main h2{
+	margin:0%;
+}
+
+div.footercolumns {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	padding:1%;
+}
+
+div.cards {
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
