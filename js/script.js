@@ -22,7 +22,9 @@ for (i=0; i<test2.length; i++) {
     var myPage = test2[i].getAttribute("href");
 console.log(myPage);
 
-//if() {}
+if(pieceIwant === myPage) {
+    alert("Match Found!");
+}
 }
 
 function toggleMenu(){
