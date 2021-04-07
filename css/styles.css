@@ -455,7 +455,7 @@ nav ul li a {
   text-decoration: none;
   border-top: 1px solid rgba(0, 0, 0, 0.3); }
 
-nav ul li.active {
+nav ul li a.active {
   background-color: #007c88; }
 
 nav a:hover {
