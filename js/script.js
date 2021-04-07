@@ -24,6 +24,7 @@ console.log(myPage);
 
 if(pieceIwant === myPage) {
     test2[i].className="parent";
+    console.log(test[i].parentNode);
     }
 }
 
