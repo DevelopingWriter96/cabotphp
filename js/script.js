@@ -24,8 +24,7 @@ console.log(myPage);
 
 if(pieceIwant === myPage) {
     test2[i].className="parent";
-    alert("Match Found! " + myPage);
-}
+    }
 }
 
 function toggleMenu(){
