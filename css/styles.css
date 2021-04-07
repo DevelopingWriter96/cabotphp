@@ -491,6 +491,9 @@ picture div {
   position: absolute;
   bottom: 0; }
 
+.parent {
+  background-color: #00d8ee; }
+
 div.cards {
   display: grid;
   grid-template-columns: 1fr;

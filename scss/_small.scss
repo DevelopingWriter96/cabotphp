@@ -99,7 +99,9 @@ picture img {width:100%;}
 picture div {position: absolute;
 	bottom: 0;}
 
-
+.parent {
+	background-color: lighten($backColor, 10%)
+}
 
 
 div.cards {
