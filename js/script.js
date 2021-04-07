@@ -23,8 +23,8 @@ for (i=0; i<test2.length; i++) {
 console.log(myPage);
 
 if(pieceIwant === myPage) {
-    test2[i].parentNode.className="parent"
-    test2[i].parentNode.parentNode.parentNode.className="active";
+    test2[i].parentNode.className="active"
+    test2[i].parentNode.parentNode.parentNode.className="parent";
     }
 }
 
