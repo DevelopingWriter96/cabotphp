@@ -22,7 +22,7 @@
 <nav class="clearfix">
 	<button onClick="toggleMenu()">&#9776;</button>	
         <ul id="primaryNav" class="hide">
-			<li class="active"><a href="index.php">HOME</a></li>
+			<li><a href="index.php">HOME</a></li>
 			<li><a href="cruise.php">CRUISE</a></li>
 			<li><a href ="#">AGENTS</a>
 			<ul>
