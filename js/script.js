@@ -24,7 +24,7 @@ console.log(myPage);
 
 if(pieceIwant === myPage) {
     test2[i].parentNode.className="active"
-    if(test2[i].parentNode.parentNode.parentNode.tagName==="li") {
+    if(test2[i].parentNode.parentNode.parentNode.tagName==="LI") {
     test2[i].parentNode.parentNode.parentNode.className="parent";
     }
     } else {
